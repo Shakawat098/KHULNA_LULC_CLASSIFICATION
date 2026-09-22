@@ -251,7 +251,16 @@ The resulting outputs document 25 years of steady urban footprint growth and agr
 
 ## 👨‍💻 Author
 
-**Md. Shakawat Hossain**
-_Department of Farm Power Machinery_
-_Agricultural Engineering & Technology_
-_Khulna Agricultural university, Khulna, Bangladesh_
+**Md. Shakawat Hossain**  
+Department of Farm Power and Machinery  
+Faculty of Agricultural Engineering & Technology  
+Khulna Agricultural University, Khulna, Bangladesh
+
+---
+
+### 🔬 Research & Professional Interests
+
+- Geospatial AI & Machine Learning in Remote Sensing
+- Precision Agriculture & Farm Mechanization
+- Cloud Geoprocessing (Google Earth Engine)
+- Environmental Modeling & Multi-Temporal Landscape Dynamics
