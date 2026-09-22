@@ -226,29 +226,18 @@ Overall Accuracy Progression (Phases 0–24):
 
 - **Realistic Spatial Validation:** Moving from a random split to a spatially independent 2-fold checkerboard partition removed spatial autocorrelation bias, ensuring reliable accuracy estimates.
 
-### Final Model Accuracy Breakdown (Phase 24)
+### Model Performance & Class Accuracy (Phase 24)
 
-- **Overall Accuracy (OA):** **$84.18\%$**
+- **Overall Accuracy (OA):** 84.18%
+- **Kappa Coefficient ($\kappa$):** 0.7980
 
-- **Kappa Coefficient ($\kappa$):** **$0.7980$**
-
-| Class | Producer's Accuracy (PA) | Consumer's Accuracy (CA) | Diagnostic Behavior
-
-|           |
-| --------- | --------- | --------- | ------------------------------------------------------------------------ |
-| **Water** | $93.74\%$ | $91.69\%$ | Highly dependable identification across main rivers and interior canals. |
-
-|
-| **Built-up** | $81.93\%$ | $86.13\%$ | Clean separation from surrounding soils with minimal commission error.
-
-|
-| **Agriculture** | $96.17\%$ | $69.10\%$ | Very high recall capturing crop parcels; lower precision due to seasonal planting dynamic overlap.
-
-|
-| **Forest** | $83.24\%$ | $99.26\%$ | Near-zero false detections; tree canopies are accurately isolated.
-
-|
-| **Barren Land** | $57.04\%$ | $86.12\%$ | Solid user reliability; some omissions occur due to short seasonal fallow periods.
+| Class           | Producer's Accuracy (PA) | Consumer's Accuracy (CA) | Diagnostic Behavior                                                                                |
+| :-------------- | :----------------------: | :----------------------: | :------------------------------------------------------------------------------------------------- |
+| **Water**       |          93.74%          |          91.69%          | Highly dependable identification across main rivers and interior canals.                           |
+| **Built-up**    |          81.93%          |          86.13%          | Clean separation from surrounding soils with minimal commission error.                             |
+| **Agriculture** |          96.17%          |          69.10%          | Very high recall capturing crop parcels; lower precision due to seasonal planting dynamic overlap. |
+| **Forest**      |          83.24%          |          99.26%          | Near-zero false detections; tree canopies are accurately isolated.                                 |
+| **Barren Land** |          57.04%          |          86.12%          | Solid user reliability; some omissions occur due to short seasonal fallow periods.                 |
 
 |
 
