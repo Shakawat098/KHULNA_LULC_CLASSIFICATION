@@ -44,8 +44,8 @@ USGS Harmonized Landsat Collection 2 Tier 1 Surface Reflectance products were us
 
 The landscape was partitioned into five discrete classes:
 
-| Class ID | Class Name          |                                       Hex Code                                       | Description |
-| :------: | :------------------ | :----------------------------------------------------------------------------------: | :---------: |
+| Class ID | Class Name          |                                     Description                                      |
+| :------: | :------------------ | :----------------------------------------------------------------------------------: |
 |  **0**   | **Water**           |         Perennial rivers, canals, permanent reservoirs, and tidal waterways.         |
 |  **1**   | **Built-up**        |   Residential areas, road networks, commercial and industrial impervious surfaces.   |
 |  **2**   | **Agriculture**     |       Active agricultural plots, cultivated crop parcels, and seasonal fields.       |
