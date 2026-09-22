@@ -44,13 +44,13 @@ USGS Harmonized Landsat Collection 2 Tier 1 Surface Reflectance products were us
 
 The landscape was partitioned into five discrete classes:
 
-| Class ID | Class Name          | Hex Code  |                        Visual Sample                         | Description                                                                          |
-| :------: | :------------------ | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------------------------------- |
-|  **0**   | **Water**           | `#004DA8` | ![#004DA8](https://via.placeholder.com/15/004DA8/004DA8.png) | Perennial rivers, canals, permanent reservoirs, and tidal waterways.                 |
-|  **1**   | **Built-up**        | `#E60000` | ![#E60000](https://via.placeholder.com/15/E60000/E60000.png) | Residential areas, road networks, commercial and industrial impervious surfaces.     |
-|  **2**   | **Agriculture**     | `#FFFF00` | ![#FFFF00](https://via.placeholder.com/15/FFFF00/FFFF00.png) | Active agricultural plots, cultivated crop parcels, and seasonal fields.             |
-|  **3**   | **Forest / Canopy** | `#267300` | ![#267300](https://via.placeholder.com/15/267300/267300.png) | Dense perennial canopy, riparian vegetation, and rural homestead orchards (_bhiti_). |
-|  **4**   | **Barren / Fallow** | `#A8A8A8` | ![#A8A8A8](https://via.placeholder.com/15/A8A8A8/A8A8A8.png) | Unvegetated bare soils, dry fallow agricultural lands, and cleared earth.            |
+| Class ID | Class Name          |                                       Hex Code                                       | Description |
+| :------: | :------------------ | :----------------------------------------------------------------------------------: | :---------: |
+|  **0**   | **Water**           |         Perennial rivers, canals, permanent reservoirs, and tidal waterways.         |
+|  **1**   | **Built-up**        |   Residential areas, road networks, commercial and industrial impervious surfaces.   |
+|  **2**   | **Agriculture**     |       Active agricultural plots, cultivated crop parcels, and seasonal fields.       |
+|  **3**   | **Forest / Canopy** | Dense perennial canopy, riparian vegetation, and rural homestead orchards (_bhiti_). |
+|  **4**   | **Barren / Fallow** |      Unvegetated bare soils, dry fallow agricultural lands, and cleared earth.       |
 
 ---
 
@@ -110,7 +110,7 @@ Empirical Gini importance scores from the final Random Forest model reveal that 
 
 Below is the consolidated four-panel classification map showing the landscape transformation of Khulna across 2000, 2010, 2020, and 2025:
 
-![Khulna Multi-Temporal LULC Maps (2000-2025)](maps/Khulna_lulc_2000_2025.jpg)
+![Khulna Multi-Temporal LULC Maps (2000-2025)](maps/Khulna_lulc_2000_2025.png)
 
 ---
 
